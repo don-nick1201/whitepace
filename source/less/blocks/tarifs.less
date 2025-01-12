@@ -1,0 +1,195 @@
+.tarifs {
+  background-image: url(../img/Vector_1.png);
+  background-position: 115px 150px;
+  background-repeat: no-repeat;
+  padding-top: 79px;
+  width: 100%;
+  margin-bottom: 65px;
+  @media (min-width: @tablet-width) {
+    padding-top: 178px;
+    background-position: 367px 217px;
+    background-size: 295px 32px;
+    margin-bottom: 106px;
+  }
+}
+.tarifs .section-title {
+  padding: 0 25px 0;
+  @media (min-width: @desktop-width) {
+    text-align: center;
+    margin: 42px auto 26px auto;
+  }
+}
+.tarifs .section-text {
+  padding: 0 27px 0;
+  margin-bottom: 80px;
+  @media (min-width: @tablet-width) {
+    margin-bottom: 5px;
+  }
+  @media (min-width: @desktop-width) {
+    text-align: center;
+    padding-left: 240px;
+    padding-right: 240px;
+    margin-left: 0;
+  }
+}
+.tarifs-swiper {
+  margin-bottom: 65px;
+  @media (min-width: @tablet-width) {
+    padding-top: 53px;
+    padding-bottom: 0px;
+    margin-bottom: 48px;
+  }
+}
+.tarifs-inner {
+  padding-bottom: 89px;
+  @media (min-width: @tablet-width) {
+    padding-left: 46px;
+    padding-right: 46px;
+  }
+  @media (min-width: @desktop-width) {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+.tarifs-indicators {
+  gap: 6px;
+  bottom: 55px;
+}
+.swiper-pagination-bullet {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: var(--primary-500);
+}
+.tarif-item {
+  width: 317px;
+  @media (min-width: @tablet-width) {
+    width: 500px;
+  }
+  @media (min-width: @desktop-width) {
+    width: 469px;
+  }
+}
+.tarif-card {
+  border-radius: 10px;
+  padding: 21px 22px;
+  margin: 0 15px;
+  box-shadow: 0 4px 50px 0 rgba(0, 0, 0, 0.08);
+  border: 1px solid #ffe492;
+  background: #fff;
+  color: #000;
+  @media (min-width: @tablet-width) {
+    padding: 40px 43px 35px 47px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  @media (min-width: @desktop-width) {
+    margin-top: 54px;
+    padding-left: 43px;
+  }
+}
+.best .tarif-card{
+  border: 1px solid var(--secondary-500);
+  background: var(--secondary-500);
+  color: #fff;
+  @media (min-width: @tablet-width) {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 80px 43px 70px;
+  }
+}
+.tarif-title {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 150%;
+  letter-spacing: 0.01em;
+  color: #000;
+  margin-bottom: 20px;
+}
+.best .tarif-title {
+  color: #fefefe;
+}
+.tarif-cost {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 36px;
+  letter-spacing: 0.01em;
+  color: #000;
+  margin-bottom: 20px;
+}
+.best .tarif-cost {
+  color: #fefefe;
+}
+.tarif-slogan {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 125%;
+  letter-spacing: -0.02em;
+  color: #000;
+  margin-bottom: 3px;
+  @media (min-width: @desktop-width) {
+    letter-spacing: -0.01em;
+    margin-bottom: 7px;
+    font-size: 18px;
+  }
+}
+.best .tarif-slogan {
+  color: #fefefe;
+}
+.tarif-advantages {
+  list-style: none;
+  margin-bottom: 25px;
+}
+.tarif-advantage{
+  text-align: left;
+  line-height: 125%;
+  padding-left: 5px;
+  margin-bottom: 8px;
+  @media (min-width: @desktop-width) {
+    letter-spacing: 0.005em;
+    padding-left: 5px;
+    padding-right: 10px;
+  }
+}
+.tarif-advantage::before {
+  content: "";
+  display: block;
+  width: 20px;
+  height: 20px;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-image: url(../img/sberbank.svg);
+  position: relative;
+  left: -40px;
+  top: 22px;
+}
+.best .tarif-advantage{
+  @media (min-width: @desktop-width) {
+    font-size: 18px;
+  }
+}
+.tarif-button {
+  letter-spacing: 0.05em;
+  border-radius: 8px;
+  padding: 16px 40px;
+  width: 176px;
+  height: 62px;
+  background: #fff;
+  border: 1px solid #ffe492;
+  margin-left: -2px;
+  @media (min-width: @tablet-width) {
+    padding: 16px 35px;
+    width: 168px;
+    height: 55px;
+  }
+}
+.best .tarif-button {
+  color: #fff;
+  background: var(--primary-500);
+  border-width: 0;
+  @media (min-width: @tablet-width) {
+    margin-bottom: 8px;
+  }
+}

@@ -1,0 +1,108 @@
+// body {
+  // max-width: 320px;
+  // width: 100%;
+// }
+.white-section {
+  background-color: #fff;
+}
+body, .blue-section {
+  background-color: var(--secondary-500);
+}
+.container {
+  padding: 0;
+  max-width: 320px;
+  width: 100%;
+  @media (min-width: @tablet-width) {
+    max-width: @tablet-width;
+  }
+  @media (min-width: @desktop-width) {
+    max-width: @desktop-width;
+  }
+}
+.white-section :where(.section-title, .section-text){
+  color: #212529;
+}
+// .white-section .section-text {
+//   letter-spacing: -0.05em;
+// }
+.blue-section :where(.section-title, .section-text){
+  color: #fefefe;
+}
+.section-column {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 100px;
+  @media (min-width: @desktop-width) {
+    margin-left: 0;
+  }
+}
+.section-button {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 167%;
+  letter-spacing: 0.05em;
+  color: #fff;
+  border-radius: 8px;
+  padding: 20px 35px;
+  width: 232px;
+  height: 70px;
+  margin: 0 auto;
+}
+.blue-square {
+  width: 286px;
+  height: 191px;
+  background: var(--primary-100);
+  margin: 0 auto;
+  margin-bottom: 79px;
+  @media (min-width: @tablet-width) {
+    width: 550px;
+    height: 365px;
+    margin-bottom: 100px;
+  }
+  @media (min-width: @desktop-width) {
+    width: 685px;
+    height: 456px;
+    margin-bottom: 100px;
+    margin-top: -47px;
+    text-align: left;
+    margin-left: 5px;
+  }
+}
+.section-title {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 37px;
+  text-align: center;
+  padding: 0 5px 0 5px;
+  margin: 0 auto 26px;
+  letter-spacing: 0.01em;
+  @media (min-width: @tablet-width) {
+    font-size: 54px;
+    letter-spacing: 0.01em;
+  }
+  @media (min-width: @desktop-width) {
+    font-size: 73px;
+    letter-spacing: 0;
+    text-align: left;
+    margin-left: 28px;
+  }
+}
+.section-text {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 167%;
+  letter-spacing: -0.01em;
+  text-align: center;
+  margin-bottom: 60px;
+  padding: 0 15px 0 15px;
+  @media (min-width: @tablet-width) {
+    padding: 0 20px 0 20px;
+  }
+  @media (min-width: @desktop-width) {
+    text-align: left;
+    margin-left: 13px;
+    padding-top: 1px;
+  }
+}
